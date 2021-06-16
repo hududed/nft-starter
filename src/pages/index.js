@@ -13,7 +13,7 @@ export default function Home() {
           <p>powered by Cardano blockchain technologies</p>
           <Link className={styles.btn} to="/projects">Explore collectibles</Link>
         </div>
-        <img src="/banner.png" alt="site banner" style={{ maxWidth: '100%'}}/>
+        <img src="/banner.png" alt="site banner" style={{ maxWidth: '100%' }}/>
       </section>
     </Layout>
   )
