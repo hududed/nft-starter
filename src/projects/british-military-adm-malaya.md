@@ -2,6 +2,7 @@
 title: British Military Adm. Malaya
 stack: Svelte & Firebase
 slug: british-military-adm-malaya
+date: 1948-01-01T00:00:00+00:00
 ---
 
 https://www.stampworld.com/en/stamps/British-Military-Adm.-Malaya/

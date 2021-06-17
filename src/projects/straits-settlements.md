@@ -2,6 +2,7 @@
 title: Straits settlements stamps
 stack: HTML & CSS
 slug: straits-settlements
+date: 1947-01-01T00:00:00+00:00
 ---
 
 https://www.stampworld.com/en/stamps/Straits-Settlements/

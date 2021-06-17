@@ -2,6 +2,7 @@
 title: Labuan
 stack: Gatsby & Shopify
 slug: labuan
+date: 1963-01-01T00:00:00+00:00
 ---
 
 https://www.stampworld.com/en/stamps/Labuan/

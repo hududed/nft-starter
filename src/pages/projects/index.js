@@ -29,15 +29,16 @@ export default function Projects({ data }) {
 
 // export page query
 export const query = graphql`
-    query MyQuery {
-        allMarkdownRemark {
-        nodes {
-            frontmatter {
-            slug
-            title
+    query NFTCollectiblesPage {
+        allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
+            nodes {
+              frontmatter {
+                slug
+                title
+              }
+              id
             }
-            id
+          }
         }
-        }
-    }
+         
 `

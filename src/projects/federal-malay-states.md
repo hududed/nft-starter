@@ -2,6 +2,7 @@
 title: Federal Malay States
 stack: Vue & Firebase
 slug: federal-malay-states
+date: 1949-01-01T00:00:00+00:00
 ---
 
 https://www.stampworld.com/en/stamps/Federated-Malay-States/
