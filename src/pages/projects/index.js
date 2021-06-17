@@ -5,7 +5,8 @@ import * as styles from '../../styles/projects.module.css'
 
 export default function Projects({ data }) {
     console.log(data)
-    const projects = data.allMarkdownRemark.nodes
+    const projects = data.projects.nodes
+    const contact = data.contact.siteMetadata.contact
 
     return (
         <Layout>
@@ -22,6 +23,7 @@ export default function Projects({ data }) {
                         </Link>
                     ))}
                 </div>
+                <p>Lets work! Contact { contact } </p>
             </div>   
         </Layout>
     )
@@ -30,7 +32,7 @@ export default function Projects({ data }) {
 // export page query
 export const query = graphql`
     query NFTCollectiblesPage {
-        allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
+        projects: allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
             nodes {
               frontmatter {
                 slug
@@ -38,7 +40,12 @@ export const query = graphql`
               }
               id
             }
-          }
         }
+        contact: site {
+            siteMetadata {
+                contact
+            }
+        }
+    }
          
 `

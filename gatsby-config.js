@@ -19,6 +19,7 @@ module.exports = {
   siteMetadata: {
     title: 'NFT-Starter',
     description: 'NFT stamp marketplance',
-    copyright: 'This website is copyright 2021 NFT Starter'
+    copyright: 'This website is copyright 2021 NFT Starter',
+    contact: 'info@nft-starter.com'
   },
 }
