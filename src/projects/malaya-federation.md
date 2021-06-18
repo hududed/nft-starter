@@ -3,6 +3,7 @@ title: Malaya, Federation
 stack: Gatsby & Shopify
 slug: malaya-federation
 date: 1953-01-01T00:00:00+00:00
+thumb: ../images/thumbs/malaya-federation.jpeg
 ---
 
 https://www.stampworld.com/en/stamps/Malaya,-Federation/

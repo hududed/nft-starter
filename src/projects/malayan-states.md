@@ -3,6 +3,7 @@ title: Malayan States
 stack: HTML & CSS
 slug: malayan-states
 date: 1955-01-01T00:00:00+00:00
+thumb: ../images/thumbs/malayan-states.jpeg
 ---
 
 https://www.stampworld.com/en/maps/Malayan-States/

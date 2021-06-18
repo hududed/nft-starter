@@ -3,6 +3,7 @@ title: North Borneo
 stack: Next.js
 slug: north-borneo
 date: 1964-01-01T00:00:00+00:00
+thumb: ../images/thumbs/north-borneo.jpeg
 ---
 
 https://www.stampworld.com/en/stamps/North-Borneo/
